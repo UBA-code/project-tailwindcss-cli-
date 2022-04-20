@@ -1,0 +1,24 @@
+{
+  "name": "social-media-dashboard-with-theme-switcher",
+  "version": "1.0.0",
+  "description": "![Design preview for the Social media dashboard with theme switcher coding challenge](./design/desktop-preview.jpg)",
+  "main": "main.js",
+  "scripts": {
+    "build": "tailwindcss -i ./main.css -o ./public/main.css",
+    "watch": "tailwindcss -i ./main.css -o ./public/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UBA-code/Social-media-dashboard-with-theme-switcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UBA-code/Social-media-dashboard-with-theme-switcher/issues"
+  },
+  "homepage": "https://github.com/UBA-code/Social-media-dashboard-with-theme-switcher#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

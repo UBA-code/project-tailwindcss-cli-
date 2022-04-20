@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --Very-Dark-Blue: hsl(230, 17%, 14%);
+  --Dark-Desaturated-Blue: hsl(228, 28%, 20%)
+}
+
+body {
+  background-color: var(--Very-Dark-Blue);
+  font-family: 'Inter', sans-serif;
+}
+
+
+.card-bg {
+  background-color: var(--Dark-Desaturated-Blue);
+}
+
+.card-bg-hover {
+  background-color: #333A56 !important;
+}
+
+.text-transform-xxl {
+  letter-spacing: 0.3rem;
+}
+
+.svg {
+  filter: invert(74%) sepia(66%) saturate(433%) hue-rotate(130deg) brightness(75%) contrast(92%);
+}
